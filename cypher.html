@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="cypher/cypher.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">  <title>ROT Cypher</title>
+</head>
+
+<body class = "container">
+  <div class="main">
+    <h1>Rot Cypher</h1>
+    <div class="intro">
+        <p>Rot13 is also known as a caesar cypher. It takes the letters of a normal sentence and ROT (rotates) them 13 places in the alphabet. With this page, you can enter your own defined amount of rotation places (ROT) and see what the result will be! Simple and fun! What is your ROT name? </p>
+    </div>
+    <div class= "row text-center">
+
+    </div>
+    <br>
+    <div class="rotNum">
+       <h3>Enter your desired ROT number between 1 and 1000: </h3>
+       <input type="text" name="ROT" id="ROT">
+    </div>
+    <br>
+    <h3>Enter your message here:</h3>
+      <textarea name="message" id="input" cols="40" rows="10"></textarea>
+      <input type="submit" name="go" value="Get coded message" id="button">
+      <br>
+      <h3>Result:</h3>
+      <textarea name="message" id="output" cols="40" rows="10"></textarea>
+  </div>
+ <script src="cypher/cypher.js"></script>
+</body>
+</html>

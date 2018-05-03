@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.intro{
+  width: 100%;
+  height:30%;
+  background-color: beige;
+  margin: auto;
+}
+
+.main{
+ text-align: center;
+}
+
+#input{
+  margin: auto;
+}
+
+#button{
+  display: block;
+  margin: auto;
+}
+textarea, input{
+  border: solid 1px black;
+  text-align: center;
+}
